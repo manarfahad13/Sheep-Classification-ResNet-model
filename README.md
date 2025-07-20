@@ -1,11 +1,13 @@
 
-# 🐑 Sheep Breed Classification (Eid Al-Adha 2025 Challenge)
+# 🐑 Sheep Breed Classification (Eid Al-Adha Dal 2025 Challenge)
 
 This project presents a deep learning model developed to classify images of 7 Arabian sheep breeds using ResNet-50 and PyTorch. It was built as part of the **Eid Al-Adha 2025: Sheep Classification Challenge** hosted on Kaggle.
 
 ---
 
 ## Dataset
+
+<img width="555" height="334" alt="4" src="https://github.com/user-attachments/assets/207b8d96-e83e-40e3-8d25-fd6ad22721e6" />
 
 The dataset includes images of the following sheep breeds:
 - Naeimi
@@ -51,14 +53,28 @@ To ensure robust model evaluation and reduce overfitting, I applied 5 fold cross
 
 Confusion matrices for each fold:
 
-#### Fold 1 : <img width="810" height="598" alt="k1 con" src="https://github.com/user-attachments/assets/7fa296b8-78c2-45da-a03d-88bbe0031317" />
-#### Fold 2 : <img width="891" height="601" alt="k2" src="https://github.com/user-attachments/assets/1597c27b-d77b-4b08-ba4e-b8be441e4d5e" />
+#### Fold 1 :
+<img width="810" height="598" alt="k1 con" src="https://github.com/user-attachments/assets/7fa296b8-78c2-45da-a03d-88bbe0031317" />
 
-#### Fold 3 :<img width="861" height="598" alt="k3" src="https://github.com/user-attachments/assets/f88a2d8f-5c43-49ae-8177-4c410d7c0c11" />
 
-#### Fold 4 :<img width="793" height="596" alt="k4" src="https://github.com/user-attachments/assets/dfa3de81-e87d-4b34-babb-644645ae702b" />
+#### Fold 2 : 
+<img width="891" height="601" alt="k2" src="https://github.com/user-attachments/assets/1597c27b-d77b-4b08-ba4e-b8be441e4d5e" />
 
-#### Fold 5 : <img width="831" height="598" alt="k5" src="https://github.com/user-attachments/assets/62a47f8c-b213-4e12-b947-3730b7f09648" />
+
+
+#### Fold 3 :
+<img width="861" height="598" alt="k3" src="https://github.com/user-attachments/assets/f88a2d8f-5c43-49ae-8177-4c410d7c0c11" />
+
+
+
+#### Fold 4 :
+<img width="793" height="596" alt="k4" src="https://github.com/user-attachments/assets/dfa3de81-e87d-4b34-babb-644645ae702b" />
+
+
+
+#### Fold 5 :
+<img width="831" height="598" alt="k5" src="https://github.com/user-attachments/assets/62a47f8c-b213-4e12-b947-3730b7f09648" />
+
 
 ***Average F1 Score***: `0.917`  
 ***Average Accuracy***: `0.931`
