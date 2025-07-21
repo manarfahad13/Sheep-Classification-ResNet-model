@@ -36,7 +36,7 @@ To ensure robust model evaluation and reduce overfitting, I applied 5 fold cross
 
 - **Model Used**: ResNet-50 (pretrained on ImageNet)
 - **Folds**: 5
-- **Epochs per fold**: 20
+- **Epochs per fold**: 5
 - **Learning Rate**: 3e-5 with StepLR scheduler
 - **Loss Function**: CrossEntropy with class weights
 - **Evaluation Metric**: Macro-averaged F1-score and Accuracy
