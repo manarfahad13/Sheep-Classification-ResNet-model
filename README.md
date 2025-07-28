@@ -18,7 +18,38 @@ The dataset includes images of the following sheep breeds:
 - Roman
 - Barbari
 
-Images were divided into training and testing sets. The labels for the test set were not provided as part of the competition.
+Images were divided into training and testing sets.However, the training set was initially imbalanced, with some classes (e.g., Barbari) having significantly fewer samples than others (e.g., Naeimi).  
+To address this issue and ensure fair learning, the dataset was balanced using **data augmentation techniques** to generate additional images for the underrepresented classes.This ensured that all classes have an equal number of images (255 per class), helping the model learn more effectively without being biased toward the majority classes.
+
+## Original Class Distribution
+
+|Breed     | Original Count |
+|----------|----------------|
+| Naeimi   | 255            |
+| Najdi    | 71             |
+| Harri    | 62             |
+| Goat     | 107            |
+| Sawakni  | 80             |
+| Roman    | 72             |
+| Barbari  | 35             |
+
+
+
+## Augmented Class Distribution
+
+|Breed     | Augmented Count|
+|----------|----------------|
+| Naeimi   | 255            |
+| Najdi    | 255            |
+| Harri    | 255            |
+| Goat     | 255            |
+| Sawakni  | 255            |
+| Roman    | 255            |
+| Barbari  | 255            |
+
+
+
+
 
 ---
 ## Model Architecture
