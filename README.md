@@ -35,6 +35,16 @@ To address this issue and ensure fair learning, the dataset was balanced using *
 
 
 
+
+
+
+
+<img width="1979" height="780" alt="output (2)" src="https://github.com/user-attachments/assets/ba4373f4-830c-4988-a9db-049795580ba6" />
+
+
+
+
+
 ## Augmented Class Distribution
 
 |Breed     | Augmented Count|
@@ -47,6 +57,13 @@ To address this issue and ensure fair learning, the dataset was balanced using *
 | Roman    | 255            |
 | Barbari  | 255            |
 
+
+
+
+
+
+
+<img width="1979" height="780" alt="output (3)" src="https://github.com/user-attachments/assets/cb2fa604-e922-485f-b2ab-bf6b9cccda0c" />
 
 
 
