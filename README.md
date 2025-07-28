@@ -90,42 +90,24 @@ To ensure robust model evaluation and reduce overfitting, I applied 5 fold cross
 - **Evaluation Metric**: Macro-averaged F1-score and Accuracy
 
 ### Results Across Folds
-| Fold | F1 Score | Accuracy |
-|------|----------|----------|
-| 1    | 0.91     | 0.93     |
-| 2    | 0.92     | 0.93     |
-| 3    | 0.92     | 0.94     |
-| 4    | 0.91     | 0.93     |
-| 5    | 0.91     | 0.92     |
+| Fold   | F1 Score | Accuracy |
+|--------|----------|----------|
+| 1      | 0.9944   | 0.9944   |
+| 2      | 0.9944   | 0.9944   |
+| 3      | 0.9887   | 0.9888   |
+| 4      | 0.9912   | 0.9910   |
+| 5      | 0.9925   | 0.9930   |
 
+- **Average F1 across folds**: 0.9910
+ 
+- **Average Accuracy across folds**: 0.9910
 
-Confusion matrices for each fold:
-
-#### Fold 1 :
-<img width="810" height="598" alt="k1 con" src="https://github.com/user-attachments/assets/7fa296b8-78c2-45da-a03d-88bbe0031317" />
-
-
-#### Fold 2 : 
-<img width="891" height="601" alt="k2" src="https://github.com/user-attachments/assets/1597c27b-d77b-4b08-ba4e-b8be441e4d5e" />
+<img width="738" height="599" alt="cm" src="https://github.com/user-attachments/assets/09137364-e622-44ea-8745-7e111e23f7ae" />
 
 
 
-#### Fold 3 :
-<img width="861" height="598" alt="k3" src="https://github.com/user-attachments/assets/f88a2d8f-5c43-49ae-8177-4c410d7c0c11" />
 
 
-
-#### Fold 4 :
-<img width="793" height="596" alt="k4" src="https://github.com/user-attachments/assets/dfa3de81-e87d-4b34-babb-644645ae702b" />
-
-
-
-#### Fold 5 :
-<img width="831" height="598" alt="k5" src="https://github.com/user-attachments/assets/62a47f8c-b213-4e12-b947-3730b7f09648" />
-
-
-***Average F1 Score***: `0.917`  
-***Average Accuracy***: `0.931`
 
 ---
 
@@ -141,17 +123,16 @@ Instead, I visualized the **prediction distribution** across the 7 classes.
 ### Prediction Statistics:
 | Class   | Count | Percentage |
 |---------|-------|------------|
-| Goat    | 36    | 25.0%      |
+| Goat    | 39    | 27.1%      |
 | Roman   | 33    | 22.9%      |
-| Sawakni | 21    | 14.6%      |
-| Najdi   | 15    | 10.4%      |
-| Naeimi  | 15    | 10.4%      |
-| Barbari | 12    | 8.3%       |
-| Harri   | 12    | 8.3%       |
+| Sawakni | 19    | 13.2%      |
+| Najdi   | 17    | 11.8%      |
+| Naeimi  | 14    | 9.7%       |
+| Barbari | 11    | 7.6%       |
+| Harri   | 11    | 7.6%       |
 
-<img width="1153" height="501" alt="Capture" src="https://github.com/user-attachments/assets/03580ccf-f988-43b1-8152-464baaff6dd3" />
 
-<img width="515" height="702" alt="2" src="https://github.com/user-attachments/assets/c9cf2b45-168c-4ceb-95c9-ac48b0d3bb23" />
+<img width="991" height="493" alt="prr" src="https://github.com/user-attachments/assets/b4402880-306a-4b9a-aa39-c1a4e48875a3" />
 
 ---
 
